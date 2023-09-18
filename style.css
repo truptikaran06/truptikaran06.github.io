@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+.constant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(red, green, blue);
+    position: sticky;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.constant ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.constant ul li a {
+    text-decoration: none;
+    color: rgb(0, 3, 6);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.constant ul li a:hover {
+    background-color: whitesmoke;
+    color: rgb(9, 5, 5);
+    box-shadow: white;
+}
+
+/* Home section*/
+#mainhome {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(red, green, blue, alpha);
+    height: 840px;
+    justify-content: left;
+    align-items: center;
+    color: rgb(5, 4, 4);
+
+}
+
+#mainhome::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    background: url('image1.png')no-repeat;
+    right: 0;
+    left: 10%;
+    height: 400px;
+    width: 33%;
+    z-index: -1;
+    opacity: .8;
+    background-color: rgb(200, 177, 153) background-image: none;
+}
+
+.mainclass {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(244, 244, 232) align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    left: 35%;
+
+}
+
+/* About me section*/
+
+#aboutme {
+    background-color: rgb(244, 241, 238);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+
+
+
+}
+
+#image img {
+    display: flex;
+
+}
+
+
+.heading {
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+
+#introduction {
+    display: flex;
+    /*flex-direction: column;*/
+    text-align: justify;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+#introduction h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* My skills and experience section */
+#skills {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(244, 241, 238);
+
+}
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 18px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(213, 224, 174) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover {
+    background-position: left bottom;
+    color: rgb(6, 11, 15);
+    border: none;
+    box-shadow: 0 0 20px rgb(135, 219, 222));
+}
+
+/* contact section*/
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(244, 241, 238);
+    color: black;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msgs {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+
+}
+
+#send {
+    padding: 10px;
+    ;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+
+#send:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(172, 67, 67);
+}

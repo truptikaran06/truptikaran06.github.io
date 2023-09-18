@@ -1,0 +1,39 @@
+/* Home */
+#mainhome {
+    height: 820px;
+
+
+}
+
+.headings {
+    font-size: 1.7rem;
+}
+
+/* about */
+
+#image img {
+    display: flex;
+    width: 200px;
+    height: 175px;
+
+
+}
+
+#introduction h2 {
+    font-size: 1.5rem;
+
+}
+
+/* contacts*/
+#input {
+    width: 80%;
+
+}
+
+#msgs {
+    width: 70%;
+}
+
+#send {
+    width: 20%;
+}
