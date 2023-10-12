@@ -1,0 +1,156 @@
+/* Flexbox Part 1 */
+
+#flex-section1 ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
+
+/* end Flexbox Part 1 */
+
+
+/* Flexbox Part 2 */
+
+#flex-section2 ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+
+}
+
+#flex-section2 li {
+	flex-basis: 0;
+	list-style: none;
+	flex-grow: 1.1;
+}
+
+#flex-section2 .item1 {
+	order: 1;
+}
+
+#flex-section2 .item2 {
+	order: 3;
+}
+
+#flex-section2 .item3 {
+	order: 2;
+}
+
+/* end Flexbox Part 2 */
+
+
+/* Flexbox Part 3 */
+
+#flex-section3 .box {
+
+	margin: 0;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+
+}
+
+#flex-section3 .tags ul {
+
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+}
+
+/* end Flexbox Part 3 */
+
+
+/* Grid Part 1 */
+
+#grid-section1 .grid {
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 99px;
+	justify-items: stretch;
+	justify-content: space-around;
+	gap: 19px;
+	padding: 0;
+	margin: 0;
+}
+
+/* end Grid Part 1 */
+
+
+/* Grid Part 2 */
+
+#grid-section2 .gridboxblue {
+	display: grid;
+	grid-column: 2 / span 3;
+	grid-row: 1/ span 3;
+	order: 3;
+}
+
+#grid-section2 .gridboxred {
+	display: grid;
+	grid-column: 1 / span 2;
+	grid-row: 2;
+	order: 1;
+}
+
+/* end Grid Part 2 */
+
+
+/* Grid Part 3 */
+
+#grid-section3 .grid {
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 102px 302px 102px;
+	gap: 11px;
+	display: grid;
+}
+
+#grid-section3 .box1 {
+	grid-row: 1;
+	grid-column: 1 / span 2;
+}
+
+#grid-section3 .box2 {
+	order: 2;
+}
+
+#grid-section3 .box3 {
+	order: 2;
+}
+
+#grid-section3 .box4 {
+	grid-row: 3;
+	grid-column: 1 / span 2;
+}
+
+/* end Grid Part 3 */
+
+
+/* Transition Part */
+
+#transition-section .box a {
+	padding: 19px;
+	text-decoration: none;
+	transition: background-color;
+	transition-duration: .3s;
+	display: inline-block;
+	background-color: rgb(199, 185, 181);
+	color: #090707;
+}
+
+#transition-section .box a:hover {
+	transition-duration: .5s;
+	background-color: #d121b1;
+	color: #0b0707;
+}
+
+/* end Transition Part */
